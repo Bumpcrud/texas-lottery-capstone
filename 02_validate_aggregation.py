@@ -125,6 +125,9 @@ unknown_counties.write_csv(
 # 6. COMPARE SMALL GROUPS BY GAME CATEGORY
 # ============================================================
 
+# AI assistance was used to help develop and revise the approach
+# for evaluating sparse groups by game category.
+
 # Determine whether sparse groups are concentrated in certain game categories.
 small_group_by_category = (
     df.with_columns(
