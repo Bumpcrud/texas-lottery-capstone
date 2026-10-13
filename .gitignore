@@ -1,0 +1,9 @@
+data/
+output/
+notes/
+PROJECT_LOG.md
+
+__pycache__/
+*.pyc
+.venv/
+venv/
