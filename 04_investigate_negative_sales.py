@@ -115,7 +115,7 @@ negative_components = (
 print("\n=== NEGATIVE SALES COMPONENT ANALYSIS ===\n")
 print(negative_components)
 
-# Save the results for documentation and later reference.I
+# Save the results for documentation and later reference.
 negative_components.write_csv(
     OUTPUT_DIR / "negative_sales_component_analysis.csv"
 )
